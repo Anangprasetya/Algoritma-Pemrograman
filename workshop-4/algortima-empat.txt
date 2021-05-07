@@ -1,0 +1,21 @@
+
+	Analisis
+		input  : user meng inputkan sebuah angka (bisa float atau bisa integer)
+		proses : Mengambil nilai user menganggap float lalu di kurangkan dengan
+			 integer nilai usernya
+		output : Menentukan apakah termasuk float atau integer
+
+	Algortima
+		Deklarasi
+			flt  : real
+			it   : int
+
+		Deskripsi
+			read(flt)
+			it <- flt
+			if (flt - it = 0) then
+			   write("Angka inputan adalah Integer")
+			else
+			   write("Angka inputan adalah float")
+			endif
+				

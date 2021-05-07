@@ -1,0 +1,27 @@
+
+
+	Analisis
+		input  : user menginputka sebuah nilai (angka int)
+		proses : dari angka tersebut di konversi menjadi nilai Huruf sesuai ketentuan
+		output : nilai huruf (A,B,C,D,E)
+
+	Algortima
+		Deklarasi
+			nilai     : int
+			nilaiChar : char
+
+		Deskripsi
+			read(nilai)
+			if (n > 90 && n <= 100) then
+				nilaiChar = 'A';
+			else if (n > 80) then
+				nilaiChar = 'B';
+			else if (n > 70) then
+				nilaiChar = 'C';
+			else if (n > 60) then
+				nilaiChar = 'D';
+			else if (n >= 0) then
+				nilaiChar = 'E';
+			endif
+			write(nilaiChar)
+			
