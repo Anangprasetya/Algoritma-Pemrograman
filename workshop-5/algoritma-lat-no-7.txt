@@ -1,0 +1,20 @@
+
+	Algortima
+		Deklarasi
+			s[3], baru : string
+			n	   : int
+		Deskripsi
+			s[3] <- {"A", "B", "C"}
+			n <- 3
+			for i <- 0 to n do
+				for j <- 0 to n do
+					for k <- 0 to n do
+						if (s[i] == s[j] || s[i] == s[k] || s[j] == s[k]) then
+						     continue
+						endif
+						baru = s[i] + s[j] + s[k]
+					endfor
+				endfor
+			endfor
+ 
+		#Anangprasetya
