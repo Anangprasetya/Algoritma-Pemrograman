@@ -1,0 +1,22 @@
+
+	Algoritma
+		Deklarasi :
+			banyak		: int
+			angka[banyak]	: int
+			max		: int
+			min		: int
+		
+		Deskripsi
+			max <- angka[1]
+			min <- angka[1]
+			for int i <- 2 to banyak do
+			     if (angka[i] > max) then
+			          max <- angka[i]
+			     endif
+			     
+			     if (angka[i] < min) then
+				  min <- angka[i]
+			     endif
+			endfor
+		
+			

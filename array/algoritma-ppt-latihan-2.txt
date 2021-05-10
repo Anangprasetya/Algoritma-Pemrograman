@@ -1,0 +1,19 @@
+
+	Algortima
+		Deklarasi
+			kalimat : string
+			
+		Deskripsi
+			kalimat <- "Algortima Pemrograman"
+			for int i <- 1 to kalimat.length() do
+			    if (i % 2 == 0) then
+				if (kalimat[i] >= 'a' And kalimat[i] <= 'z') then
+				    kalimat[i] = kalimat[i] - 32
+				endif
+			    else
+				if (kalimat[i] >= 'A' And kalimat[i] <= 'Z') then
+				    kalimat[i] = kalimat[i] + 32
+				endif
+			    endif
+
+			write(kalimat)

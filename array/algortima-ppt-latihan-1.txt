@@ -1,0 +1,18 @@
+
+	Algoritma
+		Deklarasi
+			kalimat      : string
+			hitung       : int
+		
+		Deskripsi
+			function panjang(input kal : string) : integer
+			Deskripsi
+				panjang <- kal.length()
+
+
+			kalimat <- "Anang Nur Prasetya"
+			hitung <- panjang(kalimat)
+			write(hitung)
+
+			
+				  
