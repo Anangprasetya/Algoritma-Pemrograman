@@ -1,0 +1,5 @@
+	belajar 
+	Bahasa Pemrograman
+	Python, C++, Java, PHP, Javascript
+
+
